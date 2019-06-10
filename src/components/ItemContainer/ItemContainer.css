@@ -1,0 +1,11 @@
+.item__container {
+  position: relative;
+  display: block;
+}
+.item__container .itemName {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: red;
+}

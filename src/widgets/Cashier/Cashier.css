@@ -1,0 +1,14 @@
+.cashier__container {
+  border: 1px solid  #666666;
+  background-color: #cccccc;
+}
+.cashier__container .added_item {
+  padding: 5px 10px;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+}
+.cashier__container .bt.bt__erase {
+  width: 50px;
+  background-color: #666666;
+  color: #ffffff;
+}

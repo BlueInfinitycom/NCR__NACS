@@ -1,0 +1,77 @@
+@import "variables.less";
+@import "functions.less";
+
+a{
+	color: inherit;
+}
+
+.section__comp{
+	margin-bottom: 50px;
+
+	.header__container--historyPanel{
+        background-color: #1a9c91;
+		padding: 5px 0;
+
+        .bt__historyYear {
+            padding: 5px 10px;
+            color: #ffffff;
+            ._setFont("SamsungOne_800c",19px,#ffffff);
+			font-weight: bolder;
+			margin-right: 10px;
+
+            &.bt__historyYear--active{
+				background-color: #0c665e;
+            }
+        }
+    }
+
+	.title {
+		._setFont(@font-type-title, @font-type-title-size,#000000);
+		padding: 0 25px;
+		overflow-x: hidden;
+	}
+
+	.descr {
+		._setFont(@font-type-description, @font-type-description-size, #000000);
+		padding: 0 25px;
+		margin-bottom: 0;
+		overflow-x: hidden;
+	}
+
+	.subtitle {
+		._setFont(@font-type-title, @font-type-subtitle-size,#000000);		
+		text-align: center;
+	}
+	
+	.category {
+		._setFont(@font-type-title, @font-type-category-size);
+	}
+
+	.img--center {
+		margin:0 auto;
+	}
+	
+	.bt {
+		._setFont(@font-type-title, @font-type-description-size, #000000);
+		padding: 14px 30px;
+		display: inline-block;
+		margin: 15px;
+		
+		&.bt__info{
+			text-transform: uppercase;
+    		border: 1px solid #000000;
+			background-color: #ffffff;
+		}
+
+		&:hover{
+			background-color: #1f1f1f;
+			color:#ffffff;
+			font-weight: bold;
+			cursor: pointer;
+		}
+	}
+}
+
+.header__container .navbar.navbar-default.navbar-fixed-top{
+		top: 35px;
+}

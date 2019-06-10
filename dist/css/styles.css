@@ -1,0 +1,172 @@
+@font-face {
+  font-family: title;
+  src: url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansBold.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungSharpSansMedium";
+  src: url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansMedium.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansMedium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungSharpSansRegular";
+  src: url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansRegular.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungSharpSans/SamsungSharpSansRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_200c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-200c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-200c_v1.0-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_300c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-300c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-300c_v1.0-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: description;
+  src: url("http://www.samsungtvojesance.cz/fonts/SamsungOne_400.ttf");
+}
+@font-face {
+  font-family: "SamsungOne_400c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-400c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-400c_v1.0-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_500c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-500c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-500c_v1.0-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_600c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-600c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-600c_v1.0-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_700c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-700c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-700c_v1.0-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SamsungOne_800c";
+  src: url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-800c_v1.0-webfont.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungOneC/samsungone-800c_v1.0-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationCondensed-Bold';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed-Bold.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed-Bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationCondensed-Medium';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed-Medium.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationCondensed';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationC/SamsungImaginationCondensed.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationModern-Bold';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern-Bold.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern-Bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationModern-Medium';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern-Medium.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SamsungImaginationModern';
+  src: url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern.woff2') format('woff2'), url('https://static.obchod-samsung.cz/css/SamsungImaginationM/SamsungImaginationModern.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  color: inherit;
+}
+.section__comp {
+  margin-bottom: 50px;
+}
+.section__comp .header__container--historyPanel {
+  background-color: #1a9c91;
+  padding: 5px 0;
+}
+.section__comp .header__container--historyPanel .bt__historyYear {
+  padding: 5px 10px;
+  font-family: "SamsungOne_800c";
+  font-size: 19px;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.section__comp .header__container--historyPanel .bt__historyYear.bt__historyYear--active {
+  background-color: #0c665e;
+}
+.section__comp .title {
+  font-family: title;
+  font-size: 55px;
+  color: #000000;
+  padding: 0 25px;
+  overflow-x: hidden;
+}
+.section__comp .descr {
+  font-family: description;
+  font-size: 18px;
+  color: #000000;
+  padding: 0 25px;
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+.section__comp .subtitle {
+  font-family: title;
+  font-size: 45px;
+  color: #000000;
+  text-align: center;
+}
+.section__comp .category {
+  font-family: title;
+  font-size: 21px;
+  color: #ffffff;
+}
+.section__comp .img--center {
+  margin: 0 auto;
+}
+.section__comp .bt {
+  font-family: title;
+  font-size: 18px;
+  color: #000000;
+  padding: 14px 30px;
+  display: inline-block;
+  margin: 15px;
+}
+.section__comp .bt.bt__info {
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+.section__comp .bt:hover {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header__container .navbar.navbar-default.navbar-fixed-top {
+  top: 35px;
+}
